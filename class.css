@@ -1,0 +1,14 @@
+body{
+    color:plum;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-style: italic;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+}
