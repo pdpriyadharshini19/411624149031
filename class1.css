@@ -1,12 +1,8 @@
 body{
-    color:plum;
+    color: plum;
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
 }
-
-/*p{
-    font-style: italic;
-} */
 
 img{
     height: auto;
@@ -15,16 +11,15 @@ img{
 
 @media(max-width:600px){
     img{
-    height: auto;
-    width: 100%;
+        height: auto;
+        width: 100%;
+    }
 }
-}
-
 
 video{
-    /*height:500px;*/
     width: 100%;
 }
+
 ol{
     list-style-type: upper-roman;
 }
@@ -33,7 +28,7 @@ ul{
     list-style: disc;
 }
 
-table,th,td{
+table, th, td{
     border: 1px solid wheat;
     border-collapse: collapse;
 }
@@ -41,38 +36,43 @@ table,th,td{
 button:hover{
     background-color: bisque;
 }
+
 #p1{
     font-style: italic;
 }
+
 #p2{
     font-style: normal;
 }
 
 .pclass{
-    font-size:xx-large;
+    font-size: xx-large;
 }
+
 nav{
-    display:flex;
+    display: flex;
     flex-direction: column;
-    /*gap: 50px;*/
 }
+
 @media(min-width:1024px){
     nav{
-        diplay:flex;
+        display: flex;
         flex-direction: row;
-        gap:50px;
+        gap: 50px;
     }
+
     .grid{
-        display:grid
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 .grid{
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
 }
-h1{ 
+
+h1{
     padding: 10px;
     border: 10px solid red;
     margin: 50px;
